@@ -1,7 +1,6 @@
 # GitHub Branch Protector
 
-**This tool is designed to add, remove or update branch protection rules for repos
-in any GitHub organization.**
+**This tool will bulk add, remove or modify branch protection rules for every repos or a single repo in any GitHub organization.**
 
 The tool can:
 - Add or Update branch rules for a single repository.
