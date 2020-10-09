@@ -18,7 +18,7 @@ def add_one():
     repo = git.get_repo(org_name+"/"+repo_name)
     branch = repo.get_branch(branch_name)
     branch.edit_protection(**branch_rules)
-    if(signed_commits):
+    if(signed_commit):
         branch.add_required_signatures()
     print("Edited the branch protection rules for: " + repo.name)  
 
