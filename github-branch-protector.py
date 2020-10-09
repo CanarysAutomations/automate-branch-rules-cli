@@ -9,7 +9,7 @@ def add_all():
     for repo in git.get_organization(org_name).get_repos():
         branch = repo.get_branch(branch_name)
         branch.edit_protection(**branch_rules)
-        if(signed_commits):
+        if(signed_commit):
             branch.add_required_signatures()
         print("Added branch protection rules for: " + repo.name)
 
