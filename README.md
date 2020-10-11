@@ -30,11 +30,14 @@ The tool can:
 
 5. Skip the remaining part of this section if you are only planning to **Remove** the branch protection rule.
 
-6. Provide value for **signed_commit** as **True** if you need branch rule **Require signed commits** else keep it as **False**.
+6. Provide value for **add_codeowners_file** as **True** if you need to add or update **CODEOWNERS** file which is required for branch rule **Require review from Code Owners** else keep it as **False**
+   Note: Also configure the **CODEOWNERS** file in this repo for this to be done. To learn how the configure **CODEOWNERS** [click here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-code-owners)
+
+7. Provide value for **signed_commit** as **True** if you need branch rule **Require signed commits** else keep it as **False**.
 
    ![signed-commit](./readme-files/signed-commit.png)
 
-7. Add the branch protection rules which are required to add or modify in the repositories in **branch_rules** section with the following syntax.
+8. Add the branch protection rules which are required to add or modify in the repositories in **branch_rules** section with the following syntax.
    ```
    branch_rules = { "key":int_value,
                     "key2":["string_value1","string_value2","string_value3"],
@@ -42,7 +45,7 @@ The tool can:
                     }
     ```
 
-8. Refer the following table to configure.
+9. Refer the following table to configure.
 
    | Key | Value Type | Branch Rule | Example |
    |-----|------------|-------------|---------|
@@ -57,7 +60,7 @@ The tool can:
    | user_push_restrictions | string list | Restrict users who can push to matching branches | branch_rules = { "user_push_restrictions":["User1","User2","User3"] } |
    | team_push_restrictions | sting list | Restrict teams who can push to matching branches | branch_rules = { "team_push_restrictions":["Internal_App_Team","OSS_Devs"] } |
 
-9. Save and close **config.py**.
+10. Save and close **config.py**.
 
 ## How to execute
 
