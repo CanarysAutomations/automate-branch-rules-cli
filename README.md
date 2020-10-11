@@ -30,7 +30,7 @@ The tool can:
 
 5. Skip the remaining part of this section if you are only planning to **Remove** the branch protection rule.
 
-6. Provide value for **add_codeowners** as **True** if you need to add or update **CODEOWNERS** file which is required for branch rule **Require review from Code Owners** else keep it as **False**
+6. Provide value for **add_codeowners_file** as **True** if you need to add or update **CODEOWNERS** file which is required for branch rule **Require review from Code Owners** else keep it as **False**
    Note: Also configure the **CODEOWNERS** file in this repo for this to be done. To learn how the configure **CODEOWNERS** [click here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-code-owners)
 
 7. Provide value for **signed_commit** as **True** if you need branch rule **Require signed commits** else keep it as **False**.

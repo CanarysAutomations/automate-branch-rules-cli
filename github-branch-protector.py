@@ -3,29 +3,33 @@ from stdiomask import getpass
 from config import branch_name
 from config import branch_rules
 from config import signed_commit
-from config import add_codeowners
+from config import add_codeowners_file
 import codeowners
 
 def add_all(pat):
     print("")
     for repo in git.get_organization(org_name).get_repos():
         branch = repo.get_branch(branch_name)
-        if(add_codeowners):
-            codeowners.add(org_name,pat,repo_name,branch_name)
+        if(add_codeowners_file):
+            codeowners.add(org_name,pat,repo.name,branch_name)
         branch.edit_protection(**branch_rules)
         if(signed_commit):
             branch.add_required_signatures()
-        print("Added branch protection rules for: " + repo.name)
+        else:
+            branch.remove_required_signatures()
+        print("Edited the branch protection rules for: " + repo.name)
 
 def add_one(pat):
     repo_name = input("\nRepository: ")
     repo = git.get_repo(org_name+"/"+repo_name)
     branch = repo.get_branch(branch_name)
-    if(add_codeowners):
+    if(add_codeowners_file):
         codeowners.add(org_name,pat,repo_name,branch_name)
     branch.edit_protection(**branch_rules)
     if(signed_commit):
         branch.add_required_signatures()
+    else:
+        branch.remove_required_signatures()
     print("Edited the branch protection rules for: " + repo.name)  
 
 def remove_one():

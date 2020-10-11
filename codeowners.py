@@ -22,7 +22,7 @@ def add(orgname,pat,reponame,branchname):
     if git_file in all_files:
         contents = repo.get_contents(git_file)
         repo.update_file(contents.path, "updating CODEOWNERS", content, contents.sha, branch=branchname)
-        print(git_file + ' added for: ' + reponame)
+        print(git_file + ' updated for: ' + reponame)
     else:
         repo.create_file(git_file, "adding CODEOWNERS", content, branch=branchname)
         print(git_file + ' created for: ' + reponame)
