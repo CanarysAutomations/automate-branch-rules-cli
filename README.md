@@ -11,6 +11,7 @@ The tool can:
 ## Prerequisites
 
 - A GitHub organization with permissions to update branch protection rules.<br>
+  
   *Note: The tool is not developed for personal accounts in GitHub*
 
 - Docker installed in your machine. To download and install docker for Mac, Linux or windows [click here.](https://docs.docker.com/get-docker/)
@@ -18,6 +19,7 @@ The tool can:
 ## How to configure
 
 1. If need to set branch protection rules for teams or users, verify the roles and access of corresponding teams in the repositories.
+   
    *Note: If proper role not set the tool just skips the branch rule and add other branch rules specified.*
 
 2. Clone this repository to your machine.
@@ -31,8 +33,11 @@ The tool can:
 5. Skip the remaining part of this section if you are only planning to **Remove** the branch protection rule.
 
 6. Provide value for **add_codeowners_file** as **True** if you need to add or update **CODEOWNERS** file which is required for branch rule **Require review from Code Owners** else keep it as **False**
-   Note: Also configure the **CODEOWNERS** file in this repo for this to be done. To learn how the configure **CODEOWNERS** [click here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-code-owners)
-
+   
+   *Note: Also configure the **CODEOWNERS** file in this repo for this to be done. To learn how the configure **CODEOWNERS** [click here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-code-owners)*
+   
+   ![add-code-owners(./readme-files/add-code-owners.png)
+   
 7. Provide value for **signed_commit** as **True** if you need branch rule **Require signed commits** else keep it as **False**.
 
    ![signed-commit](./readme-files/signed-commit.png)
