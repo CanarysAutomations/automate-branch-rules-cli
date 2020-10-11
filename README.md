@@ -36,7 +36,7 @@ The tool can:
    
    *Note: Also configure the **CODEOWNERS** file in this repo for this to be done. To learn how the configure **CODEOWNERS** [click here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-code-owners)*
    
-   ![add-code-owners(./readme-files/add-code-owners.png)
+   ![add-code-owners](./readme-files/add-code-owners.png)
    
 7. Provide value for **signed_commit** as **True** if you need branch rule **Require signed commits** else keep it as **False**.
 
