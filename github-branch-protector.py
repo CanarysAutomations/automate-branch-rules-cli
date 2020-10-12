@@ -63,7 +63,7 @@ org_name = input("\nGitHub Organization name: ")
 pat = getpass("PAT: ")
 print("")
 print("Where do u want to add/remove rules?")
-exec_type = input("One Repository [O] , All Repositories [A] , Remove Single [S] , Remove All [R]: ")
+exec_type = input("Add One Repository [O] , Add All Repositories [A] , Remove Single Repository [S] , Remove All Repositories [R]: ").upper()
 git = Github(pat)
 
 if (exec_type=='O'):
