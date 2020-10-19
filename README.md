@@ -10,6 +10,8 @@ The tool can:
 
 ## Prerequisites
 
+The tool can be executed as a CLI app inside a **docker container** or directly using **python**. Refer the below sections for prerequisites in both cases.
+
 ### Running as a docker container.
 
 - A GitHub organization with permissions to update branch protection rules.<br>
