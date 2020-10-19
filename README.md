@@ -28,6 +28,10 @@ The tool can be executed as a CLI app inside a **docker container** or directly 
 
 - Python 3.8 or above installed in your machine. To download [click here](https://www.python.org/downloads/)
 
+- Latest version of pip. Run the following command as root user or in admin command prompt if windows.
+
+  ```python -m pip install --upgrade pip```
+
 - Python library **stdiomask** installed in your machine. Run the following command as root user or in admin command prompt if windows.
 
   ```pip install stdiomask```
