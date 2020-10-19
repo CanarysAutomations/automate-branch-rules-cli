@@ -85,13 +85,29 @@ The tool can:
 
 10. Save and close **config.py**.
 
-## How to execute
+## How to execute with python
 
 1. Open cmd/terminal and navigate to the path where the tool is cloned.
 
     ```cd <path-to-the-repository>```
 
-2. Run the following command to build the tool.
+2. Run the following command to run the tool with python.
+
+    ```python github-branch-protector.py```
+
+4. Enter the **organization name**, **PAT** and **Execution type** when prompted. If choosing single repository add/remove you will also have to provide **Repository Name**.
+
+    ![run-tool](./readme-files/run-tool.png)
+
+5. Verify in GitHub whether the rules are added.
+
+## How to execute with docker
+
+1. Open cmd/terminal and navigate to the path where the tool is cloned.
+
+    ```cd <path-to-the-repository>```
+
+2. Run the following command to build the tool with docker.
 
     ```docker build -t github-branch-protector .```
 
