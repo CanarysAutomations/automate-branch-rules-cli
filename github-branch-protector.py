@@ -21,7 +21,7 @@ def add_all(pat):
 
 def add_one(pat):
     repo_name = input("\nRepository: ")
-    repo = git.get_repo(org_name+"/"+repo_name)
+  repo = git.get_repo(org_name+"/"+repo_name)
     branch = repo.get_branch(branch_name)
     if(add_codeowners_file):
         codeowners.add(org_name,pat,repo_name,branch_name)
