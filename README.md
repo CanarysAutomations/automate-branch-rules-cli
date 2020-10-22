@@ -13,6 +13,7 @@ The tool currently supports adding or modifying the below branch protection rule
 - Require signed commits
 - Include administrators
 - Restrict who can push to matching branches
+- Add or update CODEOWNERS
 
 ## Prerequisites
 
