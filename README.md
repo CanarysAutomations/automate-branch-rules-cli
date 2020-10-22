@@ -19,7 +19,7 @@ The tool currently supports adding or modifying the below branch protection rule
 
 ### Prerequisites
 
-The tool can be executed as a CLI app inside a **Docker Container** or using **Python**. Refer the below sections for prerequisites in both the cases.
+You can run the tool as **Docker Container** or cli using **Python**. Refer to the below sections in both cases.
 
 ### Run as a Docker Container :whale:
 
