@@ -22,17 +22,15 @@ The tool currently supports adding or modifying the below branch protection rule
 You can run the tool as **Docker Container** or cli using **Python**. Refer to the below sections in both cases.
 - A GitHub organization with permissions to update the branch protection rules
 
-### Run as a Docker Container :whale:
+#### Run as a Docker Container :whale:
 
 - [Docker](https://docs.docker.com/get-docker/) installed on your machine
 
-### Run using Python :snake:
+#### Run using Python :snake:
 
 - [Python 3.8](https://www.python.org/downloads/) or above installed on your machine
 
-**Note**- Run the below commands as a root user **(linux)** or as an administrator mode in command prompt **(windows).**
-
-- Install the latest version of pip, 
+- Install the latest version of pip
 
   ```python -m pip install --upgrade pip```
 
@@ -43,6 +41,8 @@ You can run the tool as **Docker Container** or cli using **Python**. Refer to t
 - Install the Python library **PyGithub**
 
   ```pip install pygithub```
+
+**Note**- Run the above commands as a root user **(linux)** or as an administrator mode in command prompt **(windows).**
 
 ### Usage Instructions :memo:
 
