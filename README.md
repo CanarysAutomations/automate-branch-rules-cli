@@ -20,16 +20,13 @@ The tool currently supports adding or modifying the below branch protection rule
 ### Prerequisites
 
 You can run the tool as **Docker Container** or cli using **Python**. Refer to the below sections in both cases.
+- A GitHub organization with permissions to update the branch protection rules
 
 ### Run as a Docker Container :whale:
-
-- A GitHub organization with permissions to update the branch protection rules
 
 - [Docker](https://docs.docker.com/get-docker/) installed on your machine
 
 ### Run using Python :snake:
-
-- A GitHub organization with permissions to update the branch protection rules
 
 - [Python 3.8](https://www.python.org/downloads/) or above installed on your machine
 
