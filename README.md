@@ -27,7 +27,7 @@ You can run the tool as **Docker Container** or cli using **Python**. Refer to t
 
 - [Docker](https://docs.docker.com/get-docker/) installed on your machine
 
-### Run using Python
+### Run using Python :snake:
 
 - A GitHub organization with permissions to update the branch protection rules
 
