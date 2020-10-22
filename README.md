@@ -46,7 +46,7 @@ You can run the tool as **Docker Container** or cli using **Python**. Refer to t
 
 ### Usage Instructions :memo:
 
-To learn how to setup and use the tool [click here](https://github.com/CanarysDevOps/GitHub-Branch-Protector/wiki/Configure-&-Execute).
+To learn how to setup and use the tool [click here](https://github.com/CanarysDevOps/GitHub-Branch-Protector/wiki/Configure).
 
 ### Current limitations :x: :x:
 
