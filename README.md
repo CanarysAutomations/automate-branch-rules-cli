@@ -2,6 +2,8 @@
 
 The tool lets you automate the addition, removal or alteration of the branch protection rules for 1 or more repositories in one go.
 
+## Supported branch protection rules
+
 The tool currently supports adding or modifying the below branch protection rules-
 
 - Require pull request reviews before merging
@@ -15,7 +17,7 @@ The tool currently supports adding or modifying the below branch protection rule
 - Restrict who can push to matching branches
 - Add or update CODEOWNERS
 
-## Prerequisites
+### Prerequisites
 
 The tool can be executed as a CLI app inside a **Docker Container** or using **Python**. Refer the below sections for prerequisites in both the cases.
 
