@@ -1,12 +1,18 @@
-# Automate Branch Rules
+# Automate :curly_loop: Branch Rules
 
-**This tool will bulk add, remove or modify branch protection rules for every repo or a single repo in any GitHub organization.**
+The tool lets you automate the addition, removal or alteration of the branch protection rules for 1 or more repositories in one go.
 
-The tool can:
-- Add or Update branch rules for a single repository.
-- Add or Update branch rules for all repositories in the organization.
-- Remove branch rules for a single repository.
-- Remove branch rules for all repositories in the organization.
+The tool currently supports adding or modifying the below branch protection rules-
+
+- Require pull request reviews before merging
+  - Dismiss stale pull request approvals when new commits are pushed
+  - Require review from Code Owners
+  - Restrict who can dismiss pull request reviews
+- Require status checks to pass before merging
+  - Require branches to be up to date before merging
+- Require signed commits
+- Include administrators
+- Restrict who can push to matching branches
 
 ## Prerequisites
 
