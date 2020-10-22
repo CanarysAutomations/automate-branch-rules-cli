@@ -42,7 +42,7 @@ You can run the tool as **Docker Container** or cli using **Python**. Refer to t
 
   ```pip install pygithub```
 
-**Note**- Run the above commands as a root user **(linux)** or as an administrator mode in command prompt **(windows).**
+**Note** :warning: Run the above commands as a root user **(linux)** or as an administrator mode in command prompt **(windows).**
 
 ### Usage Instructions :memo:
 
