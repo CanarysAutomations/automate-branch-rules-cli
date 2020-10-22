@@ -18,7 +18,7 @@ The tool currently supports adding or modifying the below branch protection rule
 
 The tool can be executed as a CLI app inside a **Docker Container** or using **Python**. Refer the below sections for prerequisites in both the cases.
 
-### Run as a Docker Container
+### Run as a Docker Container :whale:
 
 - A GitHub organization with permissions to update the branch protection rules
 
