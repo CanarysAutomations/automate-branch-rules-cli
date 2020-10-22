@@ -30,15 +30,17 @@ You can run the tool as **Docker Container** or cli using **Python**. Refer to t
 
 - [Python 3.8](https://www.python.org/downloads/) or above installed on your machine
 
-- Latest version of pip. Run the following command as a **root user** (linux) or as an administrator mode in command prompt (windows).
+**Note**- Run the below commands as a root user **(linux)** or as an administrator mode in command prompt **(windows).**
+
+- Install the latest version of pip, 
 
   ```python -m pip install --upgrade pip```
 
-- Python library **stdiomask** installed on your machine. Run the following command as a **root user** (linux) or as an administrator mode in command prompt (windows).
+- Install the Python library **stdiomask**
 
   ```pip install stdiomask```
 
-- Python library **PyGithub** installed on your machine. Run the following command as a **root user** (linux) or as an administrator mode in command prompt (windows).
+- Install the Python library **PyGithub**
 
   ```pip install pygithub```
 
