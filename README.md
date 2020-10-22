@@ -16,34 +16,35 @@ The tool currently supports adding or modifying the below branch protection rule
 
 ## Prerequisites
 
-The tool can be executed as a CLI app inside a **docker container** or directly using **python**. Refer the below sections for prerequisites in both cases.
+The tool can be executed as a CLI app inside a **Docker Container** or using **Python**. Refer the below sections for prerequisites in both the cases.
 
-### Running as a docker container.
+### Run as a Docker Container
 
-- A GitHub organization with permissions to update branch protection rules.<br>
+- A GitHub organization with permissions to update the branch protection rules
 
-  *Note: The tool is not developed for personal accounts in GitHub*
+- [Docker](https://docs.docker.com/get-docker/) installed on your machine
 
-- Docker installed in your machine. To download and install docker for Mac, Linux or windows [click here.](https://docs.docker.com/get-docker/)
+### Run using Python
 
-### Running using Python
+- A GitHub organization with permissions to update the branch protection rules
 
-- A GitHub organization with permissions to update branch protection rules.<br>
+- Python 3.8 or above installed on your machine. To download, [click here](https://www.python.org/downloads/)
 
-  *Note: The tool is not developed for personal accounts in GitHub*
-
-- Python 3.8 or above installed in your machine. To download [click here](https://www.python.org/downloads/)
-
-- Latest version of pip. Run the following command as root user or in admin command prompt if windows.
+- Latest version of pip. Run the following command as a **root user** (linux) or as an administrator mode in command prompt (windows).
 
   ```python -m pip install --upgrade pip```
 
-- Python library **stdiomask** installed in your machine. Run the following command as root user or in admin command prompt if windows.
+- Python library **stdiomask** installed on your machine. Run the following command as a **root user** (linux) or as an administrator mode in command prompt (windows).
 
   ```pip install stdiomask```
 
-- Python library **PyGithub** installed in your machine. Run the following command as root user or in admin command prompt if windows.
+- Python library **PyGithub** installed on your machine. Run the following command as a **root user** (linux) or as an administrator mode in command prompt (windows).
 
   ```pip install pygithub```
 
 **To learn how to setup and use the tool [click here](https://github.com/CanarysDevOps/GitHub-Branch-Protector/wiki/Configure-&-Execute).**
+
+### Current limitations
+
+:x: The tool does not support for [Personal user accounts](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/types-of-github-accounts) <br/>
+:x: Allow force pushes, 
