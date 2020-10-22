@@ -52,4 +52,4 @@ To learn how to setup and use the tool [click here](https://github.com/CanarysDe
 ### Current limitations :x: :x:
 
 - The tool does not support for [Personal user accounts](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/types-of-github-accounts) <br/>
-- Allow force pushes, Allow deletions and Require linear history rules are not supported
+- **Allow force pushes**, **Allow deletions** and **Require linear history** rules are not supported
