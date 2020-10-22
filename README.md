@@ -42,9 +42,11 @@ The tool can be executed as a CLI app inside a **Docker Container** or using **P
 
   ```pip install pygithub```
 
-**To learn how to setup and use the tool [click here](https://github.com/CanarysDevOps/GitHub-Branch-Protector/wiki/Configure-&-Execute).**
+### Usage Instructions
 
-### Current limitations
+To learn how to setup and use the tool [click here](https://github.com/CanarysDevOps/GitHub-Branch-Protector/wiki/Configure-&-Execute).
 
-:x: The tool does not support for [Personal user accounts](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/types-of-github-accounts) <br/>
-:x: Allow force pushes, 
+### Current limitations :x: :x:
+
+- The tool does not support for [Personal user accounts](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/types-of-github-accounts) <br/>
+- Allow force pushes, Allow deletions and Require linear history rules are not supported
