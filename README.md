@@ -42,7 +42,7 @@ The tool can be executed as a CLI app inside a **Docker Container** or using **P
 
   ```pip install pygithub```
 
-### Usage Instructions
+### Usage Instructions :memo:
 
 To learn how to setup and use the tool [click here](https://github.com/CanarysDevOps/GitHub-Branch-Protector/wiki/Configure-&-Execute).
 
