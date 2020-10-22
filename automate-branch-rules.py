@@ -62,7 +62,7 @@ print(" \_| |_/\__,_|\__\___/|_| |_| |_|\__,_|\__\___|  \____/|_|  \__,_|_| |_|\
 org_name = input("\nGitHub Organization name: ")
 pat = getpass("PAT: ")
 print("")
-print("Where do u want to add/remove rules?")
+print("Where do you want to add/remove rules?")
 exec_type = input("Add One Repository [O] , Add All Repositories [A] , Remove Single Repository [S] , Remove All Repositories [R]: ").upper()
 git = Github(pat)
 
