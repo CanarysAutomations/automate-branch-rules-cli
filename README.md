@@ -1,4 +1,4 @@
-# GitHub Branch Protector
+# Automate Branch Rules
 
 **This tool will bulk add, remove or modify branch protection rules for every repo or a single repo in any GitHub organization.**
 
