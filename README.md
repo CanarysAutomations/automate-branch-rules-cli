@@ -29,7 +29,7 @@ The tool can be executed as a CLI app inside a **Docker Container** or using **P
 
 - A GitHub organization with permissions to update the branch protection rules
 
-- Python 3.8 or above installed on your machine. To download, [click here](https://www.python.org/downloads/)
+- [Python 3.8](https://www.python.org/downloads/) or above installed on your machine
 
 - Latest version of pip. Run the following command as a **root user** (linux) or as an administrator mode in command prompt (windows).
 
