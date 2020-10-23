@@ -26,6 +26,7 @@ If applicable, add screenshots to help explain your problem.
 **Desktop (please complete the following information):**
  - OS: [e.g. Ubuntu18.04]
  - Docker Version:  [e.g. 19.03.8]
+ - Python Version: [e.g. 3.8.1]
 
 **Additional context**
 Add any other context about the problem here.
