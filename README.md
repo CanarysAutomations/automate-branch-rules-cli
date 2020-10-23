@@ -21,6 +21,7 @@ The tool currently supports adding or modifying the below branch protection rule
 
 You can run the tool as **Docker Container** or cli using **Python**. Refer to the below sections in both cases.
 - A GitHub organization with permissions to update the branch protection rules
+- Git installed on your machine.[Click here](https://git-scm.com/downloads) to get the latest version of Git.
 
 #### Run as a Docker Container :whale:
 
