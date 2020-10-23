@@ -41,7 +41,7 @@ def remove_one():
         branch = repo.get_branch(branch_name)
         if (branch.protected):
             branch.remove_protection()
-            print("Removed branch protection rules for: " + repo.name)
+            print("Removed branch protection rules for: " + repo.name + "," + branch_name)
         else:
             print("No branch protection rules for: " + repo.name + "," + branch.name)    
 
@@ -52,7 +52,7 @@ def remove_all():
             branch = repo.get_branch(branch_name)
             if (branch.protected):
                 branch.remove_protection()
-                print("Removed branch protection rules for: " + repo.name)
+                print("Removed branch protection rules for: " + repo.name + "," + branch_name)
             else:
                 print("No branch protection rules for: " + repo.name + "," + branch.name)
 
