@@ -52,3 +52,7 @@ To learn how to setup and use the tool [click here](https://github.com/CanarysDe
 
 - The tool does not support for [Personal user accounts](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/types-of-github-accounts) <br/>
 - **Allow force pushes**, **Allow deletions** and **Require linear history** rules are not supported
+
+### License
+
+The scripts and documentation in this project are released under the [MIT License](./LICENCE)
