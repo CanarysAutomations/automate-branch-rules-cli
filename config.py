@@ -1,4 +1,4 @@
-branch_name = "master"
+branches = ("master","dev")
 add_codeowners_file = False
 signed_commit = False
 branch_rules = { "required_approving_review_count":1,
