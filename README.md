@@ -1,6 +1,6 @@
 # Automate :curly_loop: Branch Rules
 
-The tool lets you automate the addition, removal or alteration of the branch protection rules for 1 or more repositories in one go. This helps users to bulk update the branch rules which saves lot of time when you have hundreds of repositories in your organization.
+The tool lets you automate the addition, removal or alteration of the branch protection rules for 1 or more branches & repositories in one go. This helps users to bulk update the branch rules which saves lot of time when you have hundreds of branches and repositories in your organization.
 
 ## Supported branch protection rules
 
