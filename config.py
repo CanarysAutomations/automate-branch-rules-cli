@@ -1,5 +1,5 @@
 """Change the config values."""
-branches = ("dev", "master")
+branches = ('master', 'dev')  # Note: Single element requires a comma at end.
 add_codeowners_file = True
 signed_commit = False
 branch_rules = {"required_approving_review_count": 1,
