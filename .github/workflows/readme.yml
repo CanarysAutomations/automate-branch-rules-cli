@@ -1,4 +1,4 @@
-name: README Repos List
+name: README-Repos-List
 on:
   push:
     branches: [ main ]
