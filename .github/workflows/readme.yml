@@ -1,7 +1,7 @@
 name: README Repos List
 on:
   push:
-    branches: master
+    branches: [ main ]
   schedule:
     - cron: "0 0 * * 1"
 jobs:
