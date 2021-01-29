@@ -45,6 +45,7 @@ You can run the tool as **Docker Container** or cli using **Python**. Refer to t
 
 **Note** :warning: Run the above commands as a root user **(linux)** or as an administrator mode in command prompt **(windows).**
 
+
 ### Usage Instructions :memo:
 
 To learn how to setup and use the tool [click here](https://github.com/CanarysDevOps/GitHub-Branch-Protector/wiki/Configure).
@@ -54,10 +55,7 @@ To learn how to setup and use the tool [click here](https://github.com/CanarysDe
 - The tool does not support for [Personal user accounts](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/types-of-github-accounts) <br/>
 - **Allow force pushes**, **Allow deletions** and **Require linear history** rules are not supported
 
-## 💝 Who's using
-
-<!-- start: readme-repos-list -->
-<!-- end: readme-repos-list -->
+## You can try the web app  from [here](https://automatebranchrules.azurewebsites.net/).
 
 ## License
 
